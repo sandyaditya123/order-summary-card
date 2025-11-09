@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png" />
+        <link rel="stylesheet" href="./output.css" />
+        <title>Frontend Mentor | Order summary card</title>
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg-blue-100 font-display flex flex-col gap-4 justify-center items-center min-h-screen overflow-y-auto p-4">
+            <img
+                class="fixed -top-20 min-w-max w-screen hidden sm:block"
+                src="../images/pattern-background-desktop.svg"
+                alt="Pattern Desktop"
+            />
+
+            <img
+                class="fixed top-0 min-w-[640px] w-screen block sm:hidden"
+                src="../images/pattern-background-mobile.svg"
+                alt="Pattern Mobile"
+            />
+
+            <div id="card" class="bg-white w-xs max-w-full sm:w-sm rounded-2xl z-10">
+                <div id="image">
+                    <img class="rounded-t-2xl" src="../images/illustration-hero.svg" alt="Hero Image" />
+                </div>
+
+                <div id="text" class="text-center px-6 sm:px-10">
+                    <h1 class="text-blue-950 text-3xl font-black mt-8 mb-3.5">Order Summary</h1>
+                    <p class="text-gray-600 font-medium">
+                        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                    </p>
+                </div>
+
+                <div id="plan" class="bg-blue-50 flex items-center w-5/6 mx-auto rounded-md mt-5 p-3">
+                    <img src="../images/icon-music.svg" alt="Music" />
+                    <div class="ms-2.5">
+                        <h6 class="text-blue-950 font-black">Annual Plan</h6>
+                        <p class="text-gray-600 font-medium">$59.99/year</p>
+                    </div>
+                    <a href="#" class="text-blue-700 text-sm font-black underline ms-auto hover:opacity-75 hover:no-underline">Change</a>
+                </div>
+
+                <div id="button" class="w-5/6 mx-auto mt-5">
+                    <button
+                        class="bg-blue-700 shadow-lg shadow-blue-800/50 text-white text-sm font-bold w-full py-3 rounded-lg cursor-pointer hover:bg-blue-700/75"
+                    >
+                        Proceed to Payment
+                    </button>
+                </div>
+
+                <div id="cancel" class="mt-5 mb-7">
+                    <p class="text-gray-600 text-sm text-center font-black cursor-pointer hover:text-blue-950">Cancel Order</p>
+                </div>
+            </div>
+
+            <div class="attribution">
+                Challenge by
+                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+                <a href="https://github.com/sandyaditya123">Sandy Aditya</a>.
+            </div>
+        </div>
+    </body>
+</html>
