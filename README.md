@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/simple-card-component-using-tailwind-css-bUraRChdRv)
 -   Live Site URL: [Add live site URL here](https://sandyaditya123.github.io/order-summary-card)
 
 ## My process
